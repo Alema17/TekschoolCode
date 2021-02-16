@@ -1,0 +1,222 @@
+2021-02-04 21:32:48,120 [main] INFO logger_File - Scenario Search functionality Test case Started 
+2021-02-04 21:32:52,076 [main] INFO logger_File - Retail page is opened
+2021-02-04 21:32:52,084 [main] INFO logger_File - Page title  is verified
+2021-02-04 21:32:52,646 [main] INFO logger_File - User entered value in search bar
+2021-02-04 21:32:53,486 [main] INFO logger_File - User clicked on search button
+2021-02-04 21:32:53,837 [main] INFO logger_File - iPhone image is displayed
+2021-02-04 21:32:54,448 [main] INFO logger_File - Search functionality Test case   passed
+2021-02-08 18:30:58,936 [main] INFO logger_File - Scenario Login to MyAccount Started 
+2021-02-08 18:31:03,408 [main] INFO logger_File - Retail page is opened
+2021-02-08 18:31:03,415 [main] INFO logger_File - Page title  is verified
+2021-02-08 18:31:03,918 [main] INFO logger_File - User click on My Account
+2021-02-08 18:31:04,168 [main] INFO logger_File - User click on Login
+2021-02-08 18:31:07,537 [main] INFO logger_File - User enter email address
+2021-02-08 18:31:07,588 [main] INFO logger_File - User enter password
+2021-02-08 18:31:08,301 [main] INFO logger_File - User click on Login button
+2021-02-08 18:31:12,221 [main] INFO logger_File - Login to MyAccount   passed
+2021-02-08 18:31:12,226 [main] INFO logger_File - Scenario Test Search functionality with multiple set of Data Started 
+2021-02-08 18:31:15,767 [main] INFO logger_File - Retail page is opened
+2021-02-08 18:31:15,774 [main] INFO logger_File - Page title  is verified
+2021-02-08 18:31:16,320 [main] INFO logger_File - User entered value in search bar
+2021-02-08 18:31:17,137 [main] INFO logger_File - User clicked on search button
+2021-02-08 18:31:17,765 [main] INFO logger_File - Test Search functionality with multiple set of Data   passed
+2021-02-08 18:31:17,767 [main] INFO logger_File - Scenario Test Search functionality with multiple set of Data Started 
+2021-02-08 18:31:20,820 [main] INFO logger_File - Retail page is opened
+2021-02-08 18:31:20,825 [main] INFO logger_File - Page title  is verified
+2021-02-08 18:31:21,396 [main] INFO logger_File - User entered value in search bar
+2021-02-08 18:31:22,242 [main] INFO logger_File - User clicked on search button
+2021-02-08 18:31:22,847 [main] INFO logger_File - Test Search functionality with multiple set of Data   passed
+2021-02-08 18:31:22,850 [main] INFO logger_File - Scenario Test Search functionality with multiple set of Data Started 
+2021-02-08 18:31:25,931 [main] INFO logger_File - Retail page is opened
+2021-02-08 18:31:25,938 [main] INFO logger_File - Page title  is verified
+2021-02-08 18:31:26,430 [main] INFO logger_File - User entered value in search bar
+2021-02-08 18:31:27,271 [main] INFO logger_File - User clicked on search button
+2021-02-08 18:31:27,891 [main] INFO logger_File - Test Search functionality with multiple set of Data   passed
+2021-02-08 19:02:43,241 [main] INFO logger_File - Scenario Search functionality Test case Started 
+2021-02-08 19:02:47,319 [main] INFO logger_File - Retail page is opened
+2021-02-08 19:02:47,331 [main] INFO logger_File - Page title  is verified
+2021-02-08 19:02:47,938 [main] INFO logger_File - User entered value in search bar
+2021-02-08 19:02:48,785 [main] INFO logger_File - User clicked on search button
+2021-02-08 19:02:49,181 [main] INFO logger_File - iPhone image is displayed
+2021-02-08 19:02:49,799 [main] INFO logger_File - Search functionality Test case   passed
+2021-02-08 19:02:49,804 [main] INFO logger_File - Scenario Test Search Functionality with multiple set of Data Started 
+2021-02-08 19:02:53,000 [main] INFO logger_File - Retail page is opened
+2021-02-08 19:02:53,006 [main] INFO logger_File - Page title  is verified
+2021-02-08 19:02:53,500 [main] INFO logger_File - User entered value in search bar
+2021-02-08 19:02:54,348 [main] INFO logger_File - User clicked on search button
+2021-02-08 19:02:54,962 [main] INFO logger_File - Test Search Functionality with multiple set of Data   passed
+2021-02-08 19:02:54,964 [main] INFO logger_File - Scenario Test Search Functionality with multiple set of Data Started 
+2021-02-08 19:02:58,162 [main] INFO logger_File - Retail page is opened
+2021-02-08 19:02:58,168 [main] INFO logger_File - Page title  is verified
+2021-02-08 19:02:58,694 [main] INFO logger_File - User entered value in search bar
+2021-02-08 19:02:59,522 [main] INFO logger_File - User clicked on search button
+2021-02-08 19:03:00,147 [main] INFO logger_File - Test Search Functionality with multiple set of Data   passed
+2021-02-08 19:03:00,151 [main] INFO logger_File - Scenario Test Search Functionality with multiple set of Data Started 
+2021-02-08 19:03:03,158 [main] INFO logger_File - Retail page is opened
+2021-02-08 19:03:03,164 [main] INFO logger_File - Page title  is verified
+2021-02-08 19:03:03,640 [main] INFO logger_File - User entered value in search bar
+2021-02-08 19:03:04,458 [main] INFO logger_File - User clicked on search button
+2021-02-08 19:03:05,073 [main] INFO logger_File - Test Search Functionality with multiple set of Data   passed
+2021-02-08 20:17:40,210 [main] INFO logger_File - Scenario Search functionality Test case Started 
+2021-02-08 20:17:44,223 [main] INFO logger_File - Retail page is opened
+2021-02-08 20:17:44,543 [main] INFO logger_File - Scenario Test Search Functionality with multiple set of Data Started 
+2021-02-08 20:33:48,860 [main] INFO logger_File - Scenario Register an Account test case Started 
+2021-02-08 20:33:52,959 [main] INFO logger_File - Retail page is opened
+2021-02-08 20:33:52,967 [main] INFO logger_File - Page title  is verified
+2021-02-08 20:33:53,523 [main] INFO logger_File - User click on My Account
+2021-02-08 20:33:54,153 [main] INFO logger_File - Register an Account test case   undefined
+2021-02-08 20:43:05,775 [main] INFO logger_File - Scenario Login to MyAccount Started 
+2021-02-08 20:43:09,886 [main] INFO logger_File - Retail page is opened
+2021-02-08 20:43:09,893 [main] INFO logger_File - Page title  is verified
+2021-02-08 21:05:51,135 [main] INFO logger_File - Scenario Register an Account test case Started 
+2021-02-08 21:06:01,230 [main] INFO logger_File - Retail page is opened
+2021-02-08 21:06:01,236 [main] INFO logger_File - Page title  is verified
+2021-02-08 21:06:01,712 [main] INFO logger_File - User click on My Account
+2021-02-08 21:06:02,729 [main] INFO logger_File - User clicked on Register option
+2021-02-08 21:06:03,370 [main] INFO logger_File - Register an Account test case   failed
+2021-02-08 21:14:40,579 [main] INFO logger_File - Scenario Register an Account test case Started 
+2021-02-08 21:14:44,530 [main] INFO logger_File - Retail page is opened
+2021-02-08 21:14:44,538 [main] INFO logger_File - Page title  is verified
+2021-02-08 21:14:45,124 [main] INFO logger_File - User click on My Account
+2021-02-08 21:14:45,719 [main] INFO logger_File - User clicked on Register option
+2021-02-08 21:14:46,131 [main] INFO logger_File - User filled the information form
+2021-02-08 21:14:46,544 [main] INFO logger_File - User check privacy and policy
+2021-02-08 21:14:47,317 [main] INFO logger_File - User clicked on Continue button
+2021-02-08 21:14:47,659 [main] INFO logger_File - Account was created Successfully
+2021-02-08 21:14:48,296 [main] INFO logger_File - Register an Account test case   passed
+2021-02-09 19:58:10,765 [main] INFO logger_File - Scenario Execute all information from Actor Table Started 
+2021-02-09 19:58:13,443 [main] INFO logger_File - Connection is established between JDBC and DB
+2021-02-09 19:58:13,503 [main] INFO logger_File - select * from public.actor: has been executed
+2021-02-09 19:58:13,505 [main] INFO logger_File - ResultSet is stored in a csv file in outcome folder
+2021-02-09 19:58:13,505 [main] INFO logger_File - DataBase connection has been closed
+2021-02-09 19:58:14,109 [main] INFO logger_File - Execute all information from Actor Table   passed
+2021-02-09 20:03:13,267 [main] INFO logger_File - Scenario Execute all information from Actor Table Started 
+2021-02-09 20:03:15,437 [main] INFO logger_File - Connection is established between JDBC and DB
+2021-02-09 20:03:15,458 [main] INFO logger_File - select * from public.actor: has been executed
+2021-02-09 20:03:15,482 [main] INFO logger_File - ResultSet is stored in a csv file in outcome folder
+2021-02-09 20:03:15,482 [main] INFO logger_File - DataBase connection has been closed
+2021-02-09 20:03:16,118 [main] INFO logger_File - Execute all information from Actor Table   passed
+2021-02-09 20:33:32,925 [main] INFO logger_File - Scenario Execute all information from Actor Table Started 
+2021-02-09 20:33:35,141 [main] INFO logger_File - Connection is established between JDBC and DB
+2021-02-09 20:33:35,156 [main] INFO logger_File - select * from public.actor: has been executed
+2021-02-09 20:33:35,158 [main] INFO logger_File - ResultSet is stored in a csv file in outcome folder
+2021-02-09 20:33:35,159 [main] INFO logger_File - DataBase connection has been closed
+2021-02-09 20:33:35,753 [main] INFO logger_File - Execute all information from Actor Table   passed
+2021-02-09 20:34:32,200 [main] INFO logger_File - Scenario Execute all information from Actor Table Started 
+2021-02-09 20:34:34,366 [main] INFO logger_File - Connection is established between JDBC and DB
+2021-02-09 20:34:34,381 [main] INFO logger_File - select * from public.actor: has been executed
+2021-02-09 20:34:34,402 [main] INFO logger_File - ResultSet is stored in a csv file in outcome folder
+2021-02-09 20:34:34,403 [main] INFO logger_File - DataBase connection has been closed
+2021-02-09 20:34:34,986 [main] INFO logger_File - Execute all information from Actor Table   passed
+2021-02-12 15:19:05,316 [main] INFO logger_File - Scenario Execute all information from Actor Table Started 
+2021-02-12 15:19:08,456 [main] INFO logger_File - Connection is established between JDBC and DB
+2021-02-12 15:19:08,613 [main] INFO logger_File - Execute all information from Actor Table   failed
+2021-02-12 15:26:12,326 [main] INFO logger_File - Scenario Execute all information from Actor Table Started 
+2021-02-12 15:26:14,898 [main] INFO logger_File - Connection is established between JDBC and DB
+2021-02-12 15:26:15,058 [main] INFO logger_File - Execute all information from Actor Table   failed
+2021-02-12 15:29:49,675 [main] INFO logger_File - Scenario Execute all information from Actor Table Started 
+2021-02-12 15:29:51,676 [main] INFO logger_File - Connection is established between JDBC and DB
+2021-02-12 15:29:51,836 [main] INFO logger_File - Execute all information from Actor Table   failed
+2021-02-12 15:40:51,183 [main] INFO logger_File - Scenario Execute all information from Actor Table Started 
+2021-02-12 15:40:53,333 [main] INFO logger_File - Connection is established between JDBC and DB
+2021-02-12 15:40:53,501 [main] INFO logger_File - Execute all information from Actor Table   failed
+2021-02-12 15:43:08,046 [main] INFO logger_File - Scenario Execute all information from Actor Table Started 
+2021-02-12 15:43:10,002 [main] INFO logger_File - Connection is established between JDBC and DB
+2021-02-12 15:43:10,169 [main] INFO logger_File - Execute all information from Actor Table   failed
+2021-02-12 16:45:40,389 [main] INFO logger_File - Scenario Execute all information from Actor Table Started 
+2021-02-12 16:45:43,276 [main] INFO logger_File - Connection is established between JDBC and DB
+2021-02-12 16:45:43,399 [main] INFO logger_File - Execute all information from Actor Table   failed
+2021-02-12 16:55:29,168 [main] INFO logger_File - Scenario Execute all information from Actor Table Started 
+2021-02-12 16:55:32,009 [main] INFO logger_File - Connection is established between JDBC and DB
+2021-02-12 16:55:32,120 [main] INFO logger_File - Execute all information from Actor Table   failed
+2021-02-12 17:03:19,903 [main] INFO logger_File - Scenario Execute all information from Actor Table Started 
+2021-02-12 17:03:22,673 [main] INFO logger_File - Connection is established between JDBC and DB
+2021-02-12 17:03:22,789 [main] INFO logger_File - Execute all information from Actor Table   failed
+2021-02-12 17:05:26,351 [main] INFO logger_File - Scenario Execute all information from Actor Table Started 
+2021-02-12 17:05:29,241 [main] INFO logger_File - Connection is established between JDBC and DB
+2021-02-12 17:05:29,378 [main] INFO logger_File - Execute all information from Actor Table   failed
+2021-02-12 17:06:11,457 [main] INFO logger_File - Scenario Execute all information from Actor Table Started 
+2021-02-12 17:06:13,716 [main] INFO logger_File - Connection is established between JDBC and DB
+2021-02-12 17:06:13,832 [main] INFO logger_File - Execute all information from Actor Table   failed
+2021-02-12 17:26:54,498 [main] INFO logger_File - Scenario Execute all information from Actor Table Started 
+2021-02-12 17:26:57,349 [main] INFO logger_File - Connection is established between JDBC and DB
+2021-02-12 17:26:57,470 [main] INFO logger_File - Execute all information from Actor Table   failed
+2021-02-12 17:41:45,004 [main] INFO logger_File - Scenario Execute all information from Actor Table Started 
+2021-02-12 17:41:52,719 [main] INFO logger_File - Connection is established between JDBC and DB
+2021-02-12 17:41:52,913 [main] INFO logger_File - Execute all information from Actor Table   failed
+2021-02-12 17:42:50,403 [main] INFO logger_File - Scenario Execute all information from Actor Table Started 
+2021-02-12 17:42:52,814 [main] INFO logger_File - Connection is established between JDBC and DB
+2021-02-12 17:42:52,926 [main] INFO logger_File - Execute all information from Actor Table   failed
+2021-02-12 17:52:03,140 [main] INFO logger_File - Scenario Execute all information from Actor Table Started 
+2021-02-12 17:52:05,800 [main] INFO logger_File - Connection is established between JDBC and DB
+2021-02-12 17:52:05,910 [main] INFO logger_File - Execute all information from Actor Table   failed
+2021-02-12 18:12:17,129 [main] INFO logger_File - Scenario Execute all information from Actor Table Started 
+2021-02-12 18:12:19,875 [main] INFO logger_File - Connection is established between JDBC and DB
+2021-02-12 18:12:19,996 [main] INFO logger_File - Execute all information from Actor Table   failed
+2021-02-12 18:12:55,491 [main] INFO logger_File - Scenario Execute all information from Actor Table Started 
+2021-02-12 18:12:57,906 [main] INFO logger_File - Connection is established between JDBC and DB
+2021-02-12 18:12:58,016 [main] INFO logger_File - Execute all information from Actor Table   failed
+2021-02-12 18:15:40,119 [main] INFO logger_File - Scenario Execute all information from Actor Table Started 
+2021-02-12 18:15:42,868 [main] INFO logger_File - Connection is established between JDBC and DB
+2021-02-12 18:15:42,998 [main] INFO logger_File - Execute all information from Actor Table   failed
+2021-02-12 18:22:10,578 [main] INFO logger_File - Scenario Execute all information from Actor Table Started 
+2021-02-12 18:22:13,579 [main] INFO logger_File - Connection is established between JDBC and DB
+2021-02-12 18:22:13,782 [main] INFO logger_File - Execute all information from Actor Table   failed
+2021-02-12 18:38:40,056 [main] INFO logger_File - Scenario Execute all information from Actor Table Started 
+2021-02-12 18:38:42,751 [main] INFO logger_File - Connection is established between JDBC and DB
+2021-02-12 18:38:42,873 [main] INFO logger_File - Execute all information from Actor Table   failed
+2021-02-12 21:28:57,985 [main] INFO logger_File - Scenario Execute all information from Actor Table Started 
+2021-02-12 21:29:00,482 [main] INFO logger_File - Connection is established between JDBC and DB
+2021-02-12 21:29:00,672 [main] INFO logger_File - Execute all information from Actor Table   failed
+2021-02-12 21:33:44,794 [main] INFO logger_File - Scenario Execute all information from Actor Table Started 
+2021-02-12 21:33:47,367 [main] INFO logger_File - Connection is established between JDBC and DB
+2021-02-12 21:33:47,535 [main] INFO logger_File - Execute all information from Actor Table   failed
+2021-02-12 21:59:36,148 [main] INFO logger_File - Scenario Execute all information from Actor Table Started 
+2021-02-12 21:59:38,769 [main] INFO logger_File - Connection is established between JDBC and DB
+2021-02-12 21:59:38,930 [main] INFO logger_File - Execute all information from Actor Table   failed
+2021-02-13 14:24:09,119 [main] INFO logger_File - Scenario Execute all information from Actor Table Started 
+2021-02-13 14:24:11,762 [main] INFO logger_File - Connection is established between JDBC and DB
+2021-02-13 14:24:11,932 [main] INFO logger_File - Execute all information from Actor Table   failed
+2021-02-13 14:39:12,848 [main] INFO logger_File - Scenario Execute all information from Actor Table Started 
+2021-02-13 14:39:14,985 [main] INFO logger_File - Connection is established between JDBC and DB
+2021-02-13 14:39:15,143 [main] INFO logger_File - Execute all information from Actor Table   failed
+2021-02-13 14:44:57,926 [main] INFO logger_File - Scenario Execute all information from Actor Table Started 
+2021-02-13 14:45:00,351 [main] INFO logger_File - Connection is established between JDBC and DB
+2021-02-13 14:45:00,509 [main] INFO logger_File - Execute all information from Actor Table   failed
+2021-02-13 14:46:07,923 [main] INFO logger_File - Scenario Execute all information from Actor Table Started 
+2021-02-13 14:46:09,814 [main] INFO logger_File - Connection is established between JDBC and DB
+2021-02-13 14:46:09,966 [main] INFO logger_File - Execute all information from Actor Table   failed
+2021-02-13 15:57:46,871 [main] INFO logger_File - Scenario Execute all information from Actor Table Started 
+2021-02-13 15:57:49,949 [main] INFO logger_File - Connection is established between JDBC and DB
+2021-02-13 15:57:50,170 [main] INFO logger_File - Execute all information from Actor Table   failed
+2021-02-14 13:04:06,241 [main] INFO logger_File - Scenario Execute all information from Actor Table Started 
+2021-02-14 13:04:08,548 [main] INFO logger_File - Connection is established between JDBC and DB
+2021-02-14 13:04:08,712 [main] INFO logger_File - Execute all information from Actor Table   failed
+2021-02-14 22:35:01,637 [main] INFO logger_File - Scenario Execute all information from Actor Table Started 
+2021-02-14 22:35:04,277 [main] INFO logger_File - Connection is established between JDBC and DB
+2021-02-14 22:35:04,434 [main] INFO logger_File - Execute all information from Actor Table   failed
+2021-02-15 14:50:45,341 [main] INFO logger_File - Scenario Execute all information from Actor Table Started 
+2021-02-15 14:50:48,094 [main] INFO logger_File - Connection is established between JDBC and DB
+2021-02-15 14:50:48,272 [main] INFO logger_File - Execute all information from Actor Table   failed
+2021-02-15 15:00:19,740 [main] INFO logger_File - Scenario Execute all information from Actor Table Started 
+2021-02-15 15:00:22,030 [main] INFO logger_File - Connection is established between JDBC and DB
+2021-02-15 15:00:22,213 [main] INFO logger_File - Execute all information from Actor Table   failed
+2021-02-15 19:25:01,641 [main] INFO logger_File - Scenario Execute all information from Actor Table Started 
+2021-02-15 19:25:04,261 [main] INFO logger_File - Connection is established between JDBC and DB
+2021-02-15 19:25:04,458 [main] INFO logger_File - Execute all information from Actor Table   failed
+2021-02-15 22:23:46,153 [main] INFO logger_File - Scenario Login to MyAccount Started 
+2021-02-15 22:23:50,234 [main] INFO logger_File - Retail page is opened
+2021-02-15 22:23:50,243 [main] INFO logger_File - Page title  is verified
+2021-02-15 22:23:50,962 [main] INFO logger_File - User click on My Account
+2021-02-15 22:23:51,229 [main] INFO logger_File - User click on Login
+2021-02-15 22:23:54,830 [main] INFO logger_File - User enter email address
+2021-02-15 22:23:54,884 [main] INFO logger_File - User enter password
+2021-02-15 22:23:55,793 [main] INFO logger_File - User click on Login button
+2021-02-15 22:23:59,447 [main] INFO logger_File - Login to MyAccount   passed
+2021-02-15 22:24:41,779 [main] INFO logger_File - Scenario Search functionality Test case Started 
+2021-02-15 22:24:45,245 [main] INFO logger_File - Retail page is opened
+2021-02-15 22:24:45,252 [main] INFO logger_File - Page title  is verified
+2021-02-15 22:24:46,087 [main] INFO logger_File - User entered value in search bar
+2021-02-15 22:24:47,132 [main] INFO logger_File - User clicked on search button
+2021-02-15 22:24:47,628 [main] INFO logger_File - iPhone image is displayed
+2021-02-15 22:24:47,789 [main] INFO logger_File - Search functionality Test case   passed

@@ -1,0 +1,153 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "comments": [
+          {
+            "line": 4,
+            "value": "#Every feature file starts with Feature: \u003cName of feature file\u003e"
+          },
+          {
+            "line": 5,
+            "value": "#Every Scenario starts with Scenario: \u003cName of Test case we want to automate\u003e"
+          },
+          {
+            "line": 6,
+            "value": "#Gherkin keywords are Given When Then"
+          },
+          {
+            "line": 7,
+            "value": "#Given is precondition"
+          },
+          {
+            "line": 8,
+            "value": "#When is an Action taken"
+          },
+          {
+            "line": 9,
+            "value": "#Then is an expected result ( we write validation )"
+          },
+          {
+            "line": 10,
+            "value": "#And is repeating an action or can be used following Given keyword as well"
+          },
+          {
+            "line": 11,
+            "value": "#But is used for negative scenarios verification"
+          }
+        ],
+        "line": 14,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2252387965,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User is on Retail website",
+            "match": {
+              "location": "LoginTestStepDefinition.user_is_on_Retail_website()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1951414878,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Initializer.beforeHooks(Scenario)"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "Search functionality Test case",
+        "description": "",
+        "id": "retail-website-features;search-functionality-test-case",
+        "after": [
+          {
+            "result": {
+              "duration": 159505118,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Initializer.afterHooks(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 780824037,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User search for \u0027iphone\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "iphone",
+                  "offset": 17
+                }
+              ],
+              "location": "RetailPageTestStepDefinitions.user_search_for_iphone(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 412301420,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User click on search button",
+            "match": {
+              "location": "RetailPageTestStepDefinitions.user_click_on_search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 494219180,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User should see Iphone image",
+            "match": {
+              "location": "RetailPageTestStepDefinitions.user_should_see_Iphone_image()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 19,
+            "name": "@Test"
+          }
+        ]
+      }
+    ],
+    "name": "Retail Website Features",
+    "description": "",
+    "id": "retail-website-features",
+    "keyword": "Feature",
+    "uri": "Features/RetailPage.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@retailPage"
+      }
+    ]
+  }
+]
