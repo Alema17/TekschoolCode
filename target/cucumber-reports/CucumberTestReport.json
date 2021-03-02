@@ -3,41 +3,7 @@
     "line": 2,
     "elements": [
       {
-        "comments": [
-          {
-            "line": 4,
-            "value": "#Every feature file starts with Feature: \u003cName of feature file\u003e"
-          },
-          {
-            "line": 5,
-            "value": "#Every Scenario starts with Scenario: \u003cName of Test case we want to automate\u003e"
-          },
-          {
-            "line": 6,
-            "value": "#Gherkin keywords are Given When Then"
-          },
-          {
-            "line": 7,
-            "value": "#Given is precondition"
-          },
-          {
-            "line": 8,
-            "value": "#When is an Action taken"
-          },
-          {
-            "line": 9,
-            "value": "#Then is an expected result ( we write validation )"
-          },
-          {
-            "line": 10,
-            "value": "#And is repeating an action or can be used following Given keyword as well"
-          },
-          {
-            "line": 11,
-            "value": "#But is used for negative scenarios verification"
-          }
-        ],
-        "line": 14,
+        "line": 4,
         "name": "",
         "description": "",
         "type": "background",
@@ -45,10 +11,10 @@
         "steps": [
           {
             "result": {
-              "duration": 2252387965,
+              "duration": 2409518601,
               "status": "passed"
             },
-            "line": 15,
+            "line": 5,
             "name": "User is on Retail website",
             "match": {
               "location": "LoginTestStepDefinition.user_is_on_Retail_website()"
@@ -61,7 +27,7 @@
         "before": [
           {
             "result": {
-              "duration": 1951414878,
+              "duration": 2024938943,
               "status": "passed"
             },
             "match": {
@@ -69,14 +35,14 @@
             }
           }
         ],
-        "line": 20,
-        "name": "Search functionality Test case",
+        "line": 7,
+        "name": "User verify all items are present in Desktops tab",
         "description": "",
-        "id": "retail-website-features;search-functionality-test-case",
+        "id": "check-desktop-functionality-on-retail-website;user-verify-all-items-are-present-in-desktops-tab",
         "after": [
           {
             "result": {
-              "duration": 159505118,
+              "duration": 163402682,
               "status": "passed"
             },
             "match": {
@@ -89,64 +55,400 @@
         "steps": [
           {
             "result": {
-              "duration": 780824037,
-              "status": "passed"
+              "status": "undefined"
             },
-            "line": 21,
-            "name": "User search for \u0027iphone\u0027",
-            "match": {
-              "arguments": [
-                {
-                  "val": "iphone",
-                  "offset": 17
-                }
-              ],
-              "location": "RetailPageTestStepDefinitions.user_search_for_iphone(String)"
-            },
+            "line": 9,
+            "name": "User click on Desktops tab",
+            "match": {},
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 412301420,
-              "status": "passed"
+              "status": "undefined"
             },
-            "line": 22,
-            "name": "User click on search button",
-            "match": {
-              "location": "RetailPageTestStepDefinitions.user_click_on_search_button()"
-            },
+            "line": 10,
+            "name": "User click on Show all desktops",
+            "match": {},
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 494219180,
-              "status": "passed"
+              "status": "undefined"
             },
-            "line": 23,
-            "name": "User should see Iphone image",
-            "match": {
-              "location": "RetailPageTestStepDefinitions.user_should_see_Iphone_image()"
-            },
+            "line": 11,
+            "name": "User should see all items are present in Desktop page",
+            "match": {},
             "keyword": "Then "
           }
-        ],
-        "tags": [
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
           {
+            "result": {
+              "duration": 2164754553,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on Retail website",
+            "match": {
+              "location": "LoginTestStepDefinition.user_is_on_Retail_website()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1103856716,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Initializer.beforeHooks(Scenario)"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "User add HP LP 3065 from Desktops tab to the cart",
+        "description": "",
+        "id": "check-desktop-functionality-on-retail-website;user-add-hp-lp-3065-from-desktops-tab-to-the-cart",
+        "after": [
+          {
+            "result": {
+              "duration": 153675227,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Initializer.afterHooks(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 15,
+            "name": "User click on Desktops tab",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 16,
+            "name": "User click on Show all desktops",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 17,
+            "name": "User click ADD TO CARToption on ‘HP LP3065’item",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 18,
+            "name": "User select quantity 1",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
             "line": 19,
-            "name": "@Test"
+            "name": "User click add to Cart button",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 20,
+            "name": "User should see a message ‘Success: you have added HP LP 3065 to your Shopping cart!’",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2010721860,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on Retail website",
+            "match": {
+              "location": "LoginTestStepDefinition.user_is_on_Retail_website()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1189971989,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Initializer.beforeHooks(Scenario)"
+            }
+          }
+        ],
+        "line": 22,
+        "name": "User add Canon EOS 5Dfrom Desktops tab to the cart",
+        "description": "",
+        "id": "check-desktop-functionality-on-retail-website;user-add-canon-eos-5dfrom-desktops-tab-to-the-cart",
+        "after": [
+          {
+            "result": {
+              "duration": 153191156,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Initializer.afterHooks(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 24,
+            "name": "User click on Desktops tab",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 25,
+            "name": "User click on Show all desktops",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 26,
+            "name": "User click ADD TO CARToption on ‘Canon EOS 5D’item",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 27,
+            "name": "User select color from dropdown ‘Red’",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 28,
+            "name": "User select quantity 1",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 29,
+            "name": "User click add to Cart button",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 30,
+            "name": "User should see a message ‘Success: You have added Canon EOS 5D to your shopping cart!’",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2119335535,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on Retail website",
+            "match": {
+              "location": "LoginTestStepDefinition.user_is_on_Retail_website()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1206221760,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Initializer.beforeHooks(Scenario)"
+            }
+          }
+        ],
+        "line": 32,
+        "name": "User add a review to Canon EOS 5D item inDesktops tab",
+        "description": "",
+        "id": "check-desktop-functionality-on-retail-website;user-add-a-review-to-canon-eos-5d-item-indesktops-tab",
+        "after": [
+          {
+            "result": {
+              "duration": 175471303,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Initializer.afterHooks(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 34,
+            "name": "User click on Desktops tab",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 35,
+            "name": "User click on Show all desktops",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 36,
+            "name": "User click on Canon EOS 5D item",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 37,
+            "name": "User click on write a review link",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 38,
+            "name": "user fill the review information with below information",
+            "match": {},
+            "rows": [
+              {
+                "cells": [
+                  "yourname",
+                  "yourReview",
+                  "Rating"
+                ],
+                "line": 39
+              },
+              {
+                "cells": [
+                  "name",
+                  "review",
+                  "Bad or good"
+                ],
+                "line": 40
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 41,
+            "name": "User click on Continue Button",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 42,
+            "name": "User should see a message with ‘Thank you for your review. It has been submitted to the webmaster for approval.”",
+            "match": {},
+            "keyword": "Then "
           }
         ]
       }
     ],
-    "name": "Retail Website Features",
+    "name": "check desktop functionality on Retail Website",
     "description": "",
-    "id": "retail-website-features",
+    "id": "check-desktop-functionality-on-retail-website",
     "keyword": "Feature",
-    "uri": "Features/RetailPage.feature",
+    "uri": "Features/Desktops.feature",
     "tags": [
       {
         "line": 1,
-        "name": "@retailPage"
+        "name": "@desktopTest"
       }
     ]
   }

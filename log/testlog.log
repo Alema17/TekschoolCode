@@ -220,3 +220,72 @@
 2021-02-15 22:24:47,132 - logger_File -INFO - User clicked on search button
 2021-02-15 22:24:47,628 - logger_File -INFO - iPhone image is displayed
 2021-02-15 22:24:47,789 - logger_File -INFO - Search functionality Test case   passed
+2021-02-19 18:58:06,808 - logger_File -INFO - Scenario Execute all information from Actor Table Started 
+2021-02-19 18:58:09,710 - logger_File -INFO - Connection is established between JDBC and DB
+2021-02-19 18:58:09,868 - logger_File -INFO - Execute all information from Actor Table   failed
+2021-02-19 19:01:09,633 - logger_File -INFO - Scenario Execute all information from Actor Table Started 
+2021-02-19 19:01:11,577 - logger_File -INFO - Connection is established between JDBC and DB
+2021-02-19 19:01:11,749 - logger_File -INFO - Execute all information from Actor Table   failed
+2021-02-19 19:14:02,137 - logger_File -INFO - Scenario Execute all information from Actor Table Started 
+2021-02-19 19:14:04,252 - logger_File -INFO - Connection is established between JDBC and DB
+2021-02-19 19:14:04,412 - logger_File -INFO - Execute all information from Actor Table   failed
+2021-02-19 19:15:11,328 - logger_File -INFO - Scenario Execute all information from Actor Table Started 
+2021-02-19 19:15:13,380 - logger_File -INFO - Connection is established between JDBC and DB
+2021-02-19 19:15:13,536 - logger_File -INFO - Execute all information from Actor Table   failed
+2021-02-19 19:23:11,234 - logger_File -INFO - Scenario Execute all information from Actor Table Started 
+2021-02-19 19:23:13,627 - logger_File -INFO - Connection is established between JDBC and DB
+2021-02-19 19:23:13,786 - logger_File -INFO - Execute all information from Actor Table   failed
+2021-02-19 19:24:28,592 - logger_File -INFO - Scenario Execute all information from Actor Table Started 
+2021-02-19 19:24:30,563 - logger_File -INFO - Connection is established between JDBC and DB
+2021-02-19 19:24:30,724 - logger_File -INFO - Execute all information from Actor Table   failed
+2021-02-19 19:28:09,696 - logger_File -INFO - Scenario Execute all information from Actor Table Started 
+2021-02-19 19:28:12,119 - logger_File -INFO - Connection is established between JDBC and DB
+2021-02-19 19:28:12,281 - logger_File -INFO - Execute all information from Actor Table   failed
+2021-02-19 21:24:11,598 - logger_File -INFO - Scenario User verify all items are present in Desktops tab Started 
+2021-02-19 21:24:15,927 - logger_File -INFO - Retail page is opened
+2021-02-19 21:24:15,936 - logger_File -INFO - Page title  is verified
+2021-02-19 21:24:16,837 - logger_File -INFO - User verify all items are present in Desktops tab   undefined
+2021-02-19 21:24:16,840 - logger_File -INFO - Scenario User add HP LP 3065 from Desktops tab to the cart Started 
+2021-02-19 21:24:19,440 - logger_File -INFO - Retail page is opened
+2021-02-19 21:24:19,447 - logger_File -INFO - Page title  is verified
+2021-02-19 21:24:20,287 - logger_File -INFO - User add HP LP 3065 from Desktops tab to the cart   undefined
+2021-02-19 21:24:20,292 - logger_File -INFO - Scenario User add Canon EOS 5Dfrom Desktops tab to the cart Started 
+2021-02-19 21:24:22,872 - logger_File -INFO - Retail page is opened
+2021-02-19 21:24:22,877 - logger_File -INFO - Page title  is verified
+2021-02-19 21:24:23,690 - logger_File -INFO - User add Canon EOS 5Dfrom Desktops tab to the cart   undefined
+2021-02-19 21:24:23,693 - logger_File -INFO - Scenario User add a review to Canon EOS 5D item inDesktops tab Started 
+2021-02-19 21:24:26,263 - logger_File -INFO - Retail page is opened
+2021-02-19 21:24:26,269 - logger_File -INFO - Page title  is verified
+2021-02-19 21:24:27,086 - logger_File -INFO - User add a review to Canon EOS 5D item inDesktops tab   undefined
+2021-02-19 21:35:25,580 - logger_File -INFO - Scenario User verify all items are present in Desktops tab Started 
+2021-02-19 21:35:29,390 - logger_File -INFO - Retail page is opened
+2021-02-19 21:35:29,399 - logger_File -INFO - Page title  is verified
+2021-02-19 21:35:30,314 - logger_File -INFO - User verify all items are present in Desktops tab   passed
+2021-02-19 21:35:30,318 - logger_File -INFO - Scenario User add HP LP 3065 from Desktops tab to the cart Started 
+2021-02-19 21:35:32,936 - logger_File -INFO - Retail page is opened
+2021-02-19 21:35:32,943 - logger_File -INFO - Page title  is verified
+2021-02-19 21:35:33,789 - logger_File -INFO - User add HP LP 3065 from Desktops tab to the cart   passed
+2021-02-19 21:35:33,792 - logger_File -INFO - Scenario User add Canon EOS 5Dfrom Desktops tab to the cart Started 
+2021-02-19 21:35:36,489 - logger_File -INFO - Retail page is opened
+2021-02-19 21:35:36,495 - logger_File -INFO - Page title  is verified
+2021-02-19 21:35:37,328 - logger_File -INFO - User add Canon EOS 5Dfrom Desktops tab to the cart   passed
+2021-02-19 21:35:37,331 - logger_File -INFO - Scenario User add a review to Canon EOS 5D item inDesktops tab Started 
+2021-02-19 21:35:40,562 - logger_File -INFO - Retail page is opened
+2021-02-19 21:35:40,568 - logger_File -INFO - Page title  is verified
+2021-02-19 21:35:41,395 - logger_File -INFO - User add a review to Canon EOS 5D item inDesktops tab   passed
+2021-02-19 21:40:52,602 - logger_File -INFO - Scenario User verify all items are present in Desktops tab Started 
+2021-02-19 21:40:56,284 - logger_File -INFO - Retail page is opened
+2021-02-19 21:40:56,295 - logger_File -INFO - Page title  is verified
+2021-02-19 21:40:57,165 - logger_File -INFO - User verify all items are present in Desktops tab   undefined
+2021-02-19 21:40:57,168 - logger_File -INFO - Scenario User add HP LP 3065 from Desktops tab to the cart Started 
+2021-02-19 21:40:59,749 - logger_File -INFO - Retail page is opened
+2021-02-19 21:40:59,755 - logger_File -INFO - Page title  is verified
+2021-02-19 21:41:00,594 - logger_File -INFO - User add HP LP 3065 from Desktops tab to the cart   undefined
+2021-02-19 21:41:00,597 - logger_File -INFO - Scenario User add Canon EOS 5Dfrom Desktops tab to the cart Started 
+2021-02-19 21:41:03,112 - logger_File -INFO - Retail page is opened
+2021-02-19 21:41:03,117 - logger_File -INFO - Page title  is verified
+2021-02-19 21:41:03,955 - logger_File -INFO - User add Canon EOS 5Dfrom Desktops tab to the cart   undefined
+2021-02-19 21:41:03,959 - logger_File -INFO - Scenario User add a review to Canon EOS 5D item inDesktops tab Started 
+2021-02-19 21:41:06,618 - logger_File -INFO - Retail page is opened
+2021-02-19 21:41:06,626 - logger_File -INFO - Page title  is verified
+2021-02-19 21:41:07,463 - logger_File -INFO - User add a review to Canon EOS 5D item inDesktops tab   undefined

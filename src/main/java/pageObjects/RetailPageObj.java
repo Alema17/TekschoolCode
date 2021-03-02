@@ -10,7 +10,7 @@ import utilities.WebDriverUtility;
 public class RetailPageObj extends Base {
 
 	// Once we create Page Obj we need to extends the Base class to use Parent Class
-	// properties such is Webdriver driver
+	// properties such is Webdriver driver 
 	// we create a constructor and inside the constructor we define the
 	// PageFactory.initElements
 	// method to initialize the WebElements in this page.
