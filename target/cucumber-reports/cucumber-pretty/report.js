@@ -1,19 +1,19 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("Features/Desktops.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("Features/RetailPageSecond.feature");
 formatter.feature({
   "line": 2,
-  "name": "check desktop functionality on Retail Website",
+  "name": "Retail Page Login testing features",
   "description": "",
-  "id": "check-desktop-functionality-on-retail-website",
+  "id": "retail-page-login-testing-features",
   "keyword": "Feature",
   "tags": [
     {
       "line": 1,
-      "name": "@desktopTest"
+      "name": "@RetailPageLoginTest"
     }
   ]
 });
 formatter.before({
-  "duration": 2024938943,
+  "duration": 2627548116,
   "status": "passed"
 });
 formatter.background({
@@ -28,353 +28,524 @@ formatter.step({
   "name": "User is on Retail website",
   "keyword": "Given "
 });
-formatter.match({
-  "location": "LoginTestStepDefinition.user_is_on_Retail_website()"
+formatter.step({
+  "line": 6,
+  "name": "User click on MyAccount",
+  "keyword": "And "
 });
-formatter.result({
-  "duration": 2409518601,
-  "status": "passed"
-});
-formatter.scenario({
+formatter.step({
   "line": 7,
-  "name": "User verify all items are present in Desktops tab",
-  "description": "",
-  "id": "check-desktop-functionality-on-retail-website;user-verify-all-items-are-present-in-desktops-tab",
-  "type": "scenario",
-  "keyword": "Scenario"
+  "name": "User click on Login",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 8,
+  "name": "User enter username \u0027alema@gmail.com\u0027 and password \u0027Pass@123\u0027",
+  "keyword": "And "
 });
 formatter.step({
   "line": 9,
-  "name": "User click on Desktops tab",
-  "keyword": "When "
+  "name": "User click on Login button",
+  "keyword": "And "
 });
 formatter.step({
   "line": 10,
-  "name": "User click on Show all desktops",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 11,
-  "name": "User should see all items are present in Desktop page",
+  "name": "User should be logged in to MyAccount dashboard",
   "keyword": "Then "
-});
-formatter.match({});
-formatter.result({
-  "status": "undefined"
-});
-formatter.match({});
-formatter.result({
-  "status": "undefined"
-});
-formatter.match({});
-formatter.result({
-  "status": "undefined"
-});
-formatter.after({
-  "duration": 163402682,
-  "status": "passed"
-});
-formatter.before({
-  "duration": 1103856716,
-  "status": "passed"
-});
-formatter.background({
-  "line": 4,
-  "name": "",
-  "description": "",
-  "type": "background",
-  "keyword": "Background"
-});
-formatter.step({
-  "line": 5,
-  "name": "User is on Retail website",
-  "keyword": "Given "
 });
 formatter.match({
   "location": "LoginTestStepDefinition.user_is_on_Retail_website()"
 });
 formatter.result({
-  "duration": 2164754553,
+  "duration": 2690225067,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RetailPageLoginTestStepDefinition.user_click_on_MyAccount()"
+});
+formatter.result({
+  "duration": 87754230,
+  "status": "passed"
+});
+formatter.match({
+  "location": "LoginTestStepDefinition.user_click_on_Login()"
+});
+formatter.result({
+  "duration": 3706990377,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "alema@gmail.com",
+      "offset": 21
+    },
+    {
+      "val": "Pass@123",
+      "offset": 52
+    }
+  ],
+  "location": "LoginTestStepDefinition.user_enter_username_sdet_tekschool_us_and_password_sdet(String,String)"
+});
+formatter.result({
+  "duration": 703012796,
+  "status": "passed"
+});
+formatter.match({
+  "location": "LoginTestStepDefinition.user_click_on_Login_button()"
+});
+formatter.result({
+  "duration": 490646249,
+  "status": "passed"
+});
+formatter.match({
+  "location": "LoginTestStepDefinition.user_should_be_logged_in_to_MyAccount_dashboard()"
+});
+formatter.result({
+  "duration": 3430101024,
   "status": "passed"
 });
 formatter.scenario({
+  "line": 12,
+  "name": "Register as an Affiliate userwith Cheque Payment Method",
+  "description": "",
+  "id": "retail-page-login-testing-features;register-as-an-affiliate-userwith-cheque-payment-method",
+  "type": "scenario",
+  "keyword": "Scenario"
+});
+formatter.step({
   "line": 13,
-  "name": "User add HP LP 3065 from Desktops tab to the cart",
-  "description": "",
-  "id": "check-desktop-functionality-on-retail-website;user-add-hp-lp-3065-from-desktops-tab-to-the-cart",
-  "type": "scenario",
-  "keyword": "Scenario"
-});
-formatter.step({
-  "line": 15,
-  "name": "User click on Desktops tab",
+  "name": "User click on‘Register for an Affiliate Account’link",
   "keyword": "When "
 });
 formatter.step({
-  "line": 16,
-  "name": "User click on Show all desktops",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 17,
-  "name": "User click ADD TO CARToption on ‘HP LP3065’item",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 18,
-  "name": "User select quantity 1",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 19,
-  "name": "User click add to Cart button",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 20,
-  "name": "User should see a message ‘Success: you have added HP LP 3065 to your Shopping cart!’",
-  "keyword": "Then "
-});
-formatter.match({});
-formatter.result({
-  "status": "undefined"
-});
-formatter.match({});
-formatter.result({
-  "status": "undefined"
-});
-formatter.match({});
-formatter.result({
-  "status": "undefined"
-});
-formatter.match({});
-formatter.result({
-  "status": "undefined"
-});
-formatter.match({});
-formatter.result({
-  "status": "undefined"
-});
-formatter.match({});
-formatter.result({
-  "status": "undefined"
-});
-formatter.after({
-  "duration": 153675227,
-  "status": "passed"
-});
-formatter.before({
-  "duration": 1189971989,
-  "status": "passed"
-});
-formatter.background({
-  "line": 4,
-  "name": "",
-  "description": "",
-  "type": "background",
-  "keyword": "Background"
-});
-formatter.step({
-  "line": 5,
-  "name": "User is on Retail website",
-  "keyword": "Given "
-});
-formatter.match({
-  "location": "LoginTestStepDefinition.user_is_on_Retail_website()"
-});
-formatter.result({
-  "duration": 2010721860,
-  "status": "passed"
-});
-formatter.scenario({
-  "line": 22,
-  "name": "User add Canon EOS 5Dfrom Desktops tab to the cart",
-  "description": "",
-  "id": "check-desktop-functionality-on-retail-website;user-add-canon-eos-5dfrom-desktops-tab-to-the-cart",
-  "type": "scenario",
-  "keyword": "Scenario"
-});
-formatter.step({
-  "line": 24,
-  "name": "User click on Desktops tab",
-  "keyword": "When "
-});
-formatter.step({
-  "line": 25,
-  "name": "User click on Show all desktops",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 26,
-  "name": "User click ADD TO CARToption on ‘Canon EOS 5D’item",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 27,
-  "name": "User select color from dropdown ‘Red’",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 28,
-  "name": "User select quantity 1",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 29,
-  "name": "User click add to Cart button",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 30,
-  "name": "User should see a message ‘Success: You have added Canon EOS 5D to your shopping cart!’",
-  "keyword": "Then "
-});
-formatter.match({});
-formatter.result({
-  "status": "undefined"
-});
-formatter.match({});
-formatter.result({
-  "status": "undefined"
-});
-formatter.match({});
-formatter.result({
-  "status": "undefined"
-});
-formatter.match({});
-formatter.result({
-  "status": "undefined"
-});
-formatter.match({});
-formatter.result({
-  "status": "undefined"
-});
-formatter.match({});
-formatter.result({
-  "status": "undefined"
-});
-formatter.match({});
-formatter.result({
-  "status": "undefined"
-});
-formatter.after({
-  "duration": 153191156,
-  "status": "passed"
-});
-formatter.before({
-  "duration": 1206221760,
-  "status": "passed"
-});
-formatter.background({
-  "line": 4,
-  "name": "",
-  "description": "",
-  "type": "background",
-  "keyword": "Background"
-});
-formatter.step({
-  "line": 5,
-  "name": "User is on Retail website",
-  "keyword": "Given "
-});
-formatter.match({
-  "location": "LoginTestStepDefinition.user_is_on_Retail_website()"
-});
-formatter.result({
-  "duration": 2119335535,
-  "status": "passed"
-});
-formatter.scenario({
-  "line": 32,
-  "name": "User add a review to Canon EOS 5D item inDesktops tab",
-  "description": "",
-  "id": "check-desktop-functionality-on-retail-website;user-add-a-review-to-canon-eos-5d-item-indesktops-tab",
-  "type": "scenario",
-  "keyword": "Scenario"
-});
-formatter.step({
-  "line": 34,
-  "name": "User click on Desktops tab",
-  "keyword": "When "
-});
-formatter.step({
-  "line": 35,
-  "name": "User click on Show all desktops",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 36,
-  "name": "User click on Canon EOS 5D item",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 37,
-  "name": "User click on write a review link",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 38,
-  "name": "user fill the review information with below information",
+  "line": 14,
+  "name": "User fill affiliate form with below information",
   "rows": [
     {
       "cells": [
-        "yourname",
-        "yourReview",
-        "Rating"
+        "company",
+        "website",
+        "taxID",
+        "paymentMethod"
       ],
-      "line": 39
-    },
-    {
-      "cells": [
-        "name",
-        "review",
-        "Bad or good"
-      ],
-      "line": 40
+      "line": 15
     }
   ],
   "keyword": "And "
 });
 formatter.step({
-  "line": 41,
-  "name": "User click on Continue Button",
+  "line": 16,
+  "name": "User check on About us check box",
   "keyword": "And "
 });
 formatter.step({
-  "line": 42,
-  "name": "User should see a message with ‘Thank you for your review. It has been submitted to the webmaster for approval.”",
+  "line": 17,
+  "name": "User click on Continue button",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 18,
+  "name": "User should see a success message",
   "keyword": "Then "
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "location": "RetailPageLoginTestStepDefinition.user_click_on_Register_for_an_Affiliate_Account_link()"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 281785550,
+  "status": "passed"
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "location": "RetailPageLoginTestStepDefinition.user_fill_affiliate_form_with_below_information(DataTable)"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 974856736,
+  "status": "passed"
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "location": "RetailPageLoginTestStepDefinition.user_check_on_About_us_check_box()"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 418596352,
+  "status": "passed"
 });
-formatter.match({});
+formatter.match({
+  "location": "RetailPageTestStepDefinitions.user_click_on_Continue_button()"
+});
 formatter.result({
-  "status": "undefined"
+  "duration": 483820411,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RetailPageLoginTestStepDefinition.user_should_see_a_success_message()"
+});
+formatter.result({
+  "duration": 445670046,
+  "status": "passed"
 });
 formatter.after({
-  "duration": 175471303,
+  "duration": 156365514,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 1151836694,
+  "status": "passed"
+});
+formatter.background({
+  "line": 4,
+  "name": "",
+  "description": "",
+  "type": "background",
+  "keyword": "Background"
+});
+formatter.step({
+  "line": 5,
+  "name": "User is on Retail website",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 6,
+  "name": "User click on MyAccount",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 7,
+  "name": "User click on Login",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 8,
+  "name": "User enter username \u0027alema@gmail.com\u0027 and password \u0027Pass@123\u0027",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 9,
+  "name": "User click on Login button",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 10,
+  "name": "User should be logged in to MyAccount dashboard",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "LoginTestStepDefinition.user_is_on_Retail_website()"
+});
+formatter.result({
+  "duration": 2045053883,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RetailPageLoginTestStepDefinition.user_click_on_MyAccount()"
+});
+formatter.result({
+  "duration": 41862943,
+  "status": "passed"
+});
+formatter.match({
+  "location": "LoginTestStepDefinition.user_click_on_Login()"
+});
+formatter.result({
+  "duration": 3669710633,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "alema@gmail.com",
+      "offset": 21
+    },
+    {
+      "val": "Pass@123",
+      "offset": 52
+    }
+  ],
+  "location": "LoginTestStepDefinition.user_enter_username_sdet_tekschool_us_and_password_sdet(String,String)"
+});
+formatter.result({
+  "duration": 656829242,
+  "status": "passed"
+});
+formatter.match({
+  "location": "LoginTestStepDefinition.user_click_on_Login_button()"
+});
+formatter.result({
+  "duration": 458834083,
+  "status": "passed"
+});
+formatter.match({
+  "location": "LoginTestStepDefinition.user_should_be_logged_in_to_MyAccount_dashboard()"
+});
+formatter.result({
+  "duration": 3430170003,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 20,
+  "name": "",
+  "description": "Edit your affiliate information from Cheque payment method to Bank Transfer",
+  "id": "retail-page-login-testing-features;",
+  "type": "scenario",
+  "keyword": "Scenario"
+});
+formatter.step({
+  "line": 22,
+  "name": "User click on‘Edit your affiliate informationlink",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 23,
+  "name": "user click on Bank Transfer radio button",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 24,
+  "name": "User fill Bank information with below information",
+  "rows": [
+    {
+      "cells": [
+        "bankName",
+        "abaNumber",
+        "swiftCode",
+        "accountName",
+        "accountNumber"
+      ],
+      "line": 25
+    },
+    {
+      "cells": [
+        "US",
+        "1234",
+        "12345",
+        "aaa",
+        "123456789123456"
+      ],
+      "line": 26
+    }
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 27,
+  "name": "User click on Continue AffiliateButton",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 28,
+  "name": "User should see a success message",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "RetailPageLoginTestStepDefinition.user_click_on_Edit_your_affiliate_informationlink()"
+});
+formatter.result({
+  "duration": 228504272,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RetailPageLoginTestStepDefinition.user_click_on_Bank_Transfer_radio_button()"
+});
+formatter.result({
+  "duration": 49046905,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RetailPageLoginTestStepDefinition.user_fill_Bank_information_with_below_information(DataTable)"
+});
+formatter.result({
+  "duration": 276876147,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RetailPageLoginTestStepDefinition.user_click_on_continue_affiliatebutton()"
+});
+formatter.result({
+  "duration": 445295569,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RetailPageLoginTestStepDefinition.user_should_see_a_success_message()"
+});
+formatter.result({
+  "duration": 450813804,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 151199602,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 1160972620,
+  "status": "passed"
+});
+formatter.background({
+  "line": 4,
+  "name": "",
+  "description": "",
+  "type": "background",
+  "keyword": "Background"
+});
+formatter.step({
+  "line": 5,
+  "name": "User is on Retail website",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 6,
+  "name": "User click on MyAccount",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 7,
+  "name": "User click on Login",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 8,
+  "name": "User enter username \u0027alema@gmail.com\u0027 and password \u0027Pass@123\u0027",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 9,
+  "name": "User click on Login button",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 10,
+  "name": "User should be logged in to MyAccount dashboard",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "LoginTestStepDefinition.user_is_on_Retail_website()"
+});
+formatter.result({
+  "duration": 2054953786,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RetailPageLoginTestStepDefinition.user_click_on_MyAccount()"
+});
+formatter.result({
+  "duration": 42645034,
+  "status": "passed"
+});
+formatter.match({
+  "location": "LoginTestStepDefinition.user_click_on_Login()"
+});
+formatter.result({
+  "duration": 3696180942,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "alema@gmail.com",
+      "offset": 21
+    },
+    {
+      "val": "Pass@123",
+      "offset": 52
+    }
+  ],
+  "location": "LoginTestStepDefinition.user_enter_username_sdet_tekschool_us_and_password_sdet(String,String)"
+});
+formatter.result({
+  "duration": 630763763,
+  "status": "passed"
+});
+formatter.match({
+  "location": "LoginTestStepDefinition.user_click_on_Login_button()"
+});
+formatter.result({
+  "duration": 465583634,
+  "status": "passed"
+});
+formatter.match({
+  "location": "LoginTestStepDefinition.user_should_be_logged_in_to_MyAccount_dashboard()"
+});
+formatter.result({
+  "duration": 3437155994,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 30,
+  "name": "Edit your account Information",
+  "description": "",
+  "id": "retail-page-login-testing-features;edit-your-account-information",
+  "type": "scenario",
+  "keyword": "Scenario"
+});
+formatter.step({
+  "line": 31,
+  "name": "User click on‘Edit your account information’ link",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 32,
+  "name": "User modify below information",
+  "rows": [
+    {
+      "cells": [
+        "firstname",
+        "lastName",
+        "email",
+        "telephone"
+      ],
+      "line": 33
+    },
+    {
+      "cells": [
+        "Alema",
+        "Saadat",
+        "alema@gmail.com",
+        "9166776547"
+      ],
+      "line": 34
+    }
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 35,
+  "name": "User click on continue button",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 36,
+  "name": "User should seea message ‘Success: Your account has been successfully updated.’",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "RetailPageLoginTestStepDefinition.user_click_on_Edit_your_account_information_link()"
+});
+formatter.result({
+  "duration": 620928564,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RetailPageLoginTestStepDefinition.user_modify_below_information(DataTable)"
+});
+formatter.result({
+  "duration": 398487595,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RetailPageLoginTestStepDefinition.user_click_on_continue_button()"
+});
+formatter.result({
+  "duration": 492752239,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RetailPageLoginTestStepDefinition.user_should_seea_message_Success_Your_account_has_been_successfully_updated()"
+});
+formatter.result({
+  "duration": 449535537,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 153026286,
   "status": "passed"
 });
 });

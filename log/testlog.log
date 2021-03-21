@@ -289,3 +289,114 @@
 2021-02-19 21:41:06,618 - logger_File -INFO - Retail page is opened
 2021-02-19 21:41:06,626 - logger_File -INFO - Page title  is verified
 2021-02-19 21:41:07,463 - logger_File -INFO - User add a review to Canon EOS 5D item inDesktops tab   undefined
+2021-03-13 11:24:35,590 - logger_File -INFO - Scenario Add and Remove a Mac book from Cart Started 
+2021-03-13 11:24:40,965 - logger_File -INFO - Retail page is opened
+2021-03-13 11:24:40,974 - logger_File -INFO - Page title  is verified
+2021-03-13 11:24:41,836 - logger_File -INFO - Add and Remove a Mac book from Cart   undefined
+2021-03-13 11:24:41,838 - logger_File -INFO - Scenario Product Comparison Started 
+2021-03-13 11:24:44,381 - logger_File -INFO - Retail page is opened
+2021-03-13 11:24:44,388 - logger_File -INFO - Page title  is verified
+2021-03-13 11:24:45,261 - logger_File -INFO - Product Comparison   undefined
+2021-03-13 11:24:45,263 - logger_File -INFO - Scenario Adding an item to Wish list Started 
+2021-03-13 11:24:47,740 - logger_File -INFO - Retail page is opened
+2021-03-13 11:24:47,747 - logger_File -INFO - Page title  is verified
+2021-03-13 11:24:48,527 - logger_File -INFO - Adding an item to Wish list   undefined
+2021-03-13 11:24:48,529 - logger_File -INFO - Scenario Validate the price of MacBook Pro is 2000 Started 
+2021-03-13 11:24:50,995 - logger_File -INFO - Retail page is opened
+2021-03-13 11:24:51,000 - logger_File -INFO - Page title  is verified
+2021-03-13 11:24:51,809 - logger_File -INFO - Validate the price of MacBook Pro is 2000   undefined
+2021-03-14 23:55:54,088 - logger_File -INFO - Scenario Add and Remove a Mac book from Cart Started 
+2021-03-14 23:55:58,480 - logger_File -INFO - Retail page is opened
+2021-03-14 23:55:58,488 - logger_File -INFO - Page title  is verified
+2021-03-14 23:56:02,336 - logger_File -INFO - Scenario Product Comparison Started 
+2021-03-14 23:56:04,936 - logger_File -INFO - Retail page is opened
+2021-03-14 23:56:04,942 - logger_File -INFO - Page title  is verified
+2021-03-14 23:56:07,529 - logger_File -INFO - Scenario Adding an item to Wish list Started 
+2021-03-14 23:56:12,941 - logger_File -INFO - Retail page is opened
+2021-03-14 23:56:12,950 - logger_File -INFO - Page title  is verified
+2021-03-14 23:56:15,528 - logger_File -INFO - Scenario Validate the price of MacBook Pro is 2000 Started 
+2021-03-14 23:56:18,928 - logger_File -INFO - Retail page is opened
+2021-03-14 23:56:18,933 - logger_File -INFO - Page title  is verified
+2021-03-15 00:23:18,569 - logger_File -INFO - Scenario Add and Remove a Mac book from Cart Started 
+2021-03-15 00:23:22,934 - logger_File -INFO - Retail page is opened
+2021-03-15 00:23:22,943 - logger_File -INFO - Page title  is verified
+2021-03-15 00:32:05,739 - logger_File -INFO - Scenario Add and Remove a Mac book from Cart Started 
+2021-03-15 00:32:09,984 - logger_File -INFO - Retail page is opened
+2021-03-15 00:32:09,993 - logger_File -INFO - Page title  is verified
+2021-03-15 00:36:44,123 - logger_File -INFO - Scenario Add and Remove a Mac book from Cart Started 
+2021-03-15 00:36:47,808 - logger_File -INFO - Retail page is opened
+2021-03-15 00:36:47,818 - logger_File -INFO - Page title  is verified
+2021-03-15 23:51:22,077 - logger_File -INFO - Scenario Add and Remove a Mac book from Cart Started 
+2021-03-15 23:51:26,435 - logger_File -INFO - Retail page is opened
+2021-03-15 23:51:26,443 - logger_File -INFO - Page title  is verified
+2021-03-16 01:14:49,738 - logger_File -INFO - Scenario Add and Remove a Mac book from Cart Started 
+2021-03-16 01:15:01,105 - logger_File -INFO - Retail page is opened
+2021-03-16 01:15:01,115 - logger_File -INFO - Page title  is verified
+2021-03-16 01:15:02,045 - logger_File -INFO - Add and Remove a Mac book from Cart   undefined
+2021-03-16 01:19:43,890 - logger_File -INFO - Scenario Add and Remove a Mac book from Cart Started 
+2021-03-16 01:19:49,770 - logger_File -INFO - Retail page is opened
+2021-03-16 01:19:49,778 - logger_File -INFO - Page title  is verified
+2021-03-16 01:22:25,597 - logger_File -INFO - Scenario Add and Remove a Mac book from Cart Started 
+2021-03-16 01:22:32,643 - logger_File -INFO - Retail page is opened
+2021-03-16 01:22:32,652 - logger_File -INFO - Page title  is verified
+2021-03-18 00:11:21,732 - logger_File -INFO - Scenario Register as an Affiliate userwith Cheque Payment Method Started 
+2021-03-18 00:11:27,301 - logger_File -INFO - Retail page is opened
+2021-03-18 00:11:27,310 - logger_File -INFO - Page title  is verified
+2021-03-18 00:11:28,115 - logger_File -INFO - User click on My Account
+2021-03-18 00:11:28,378 - logger_File -INFO - User click on Login
+2021-03-18 00:11:32,050 - logger_File -INFO - Register as an Affiliate userwith Cheque Payment Method   undefined
+2021-03-18 00:11:32,052 - logger_File -INFO - Scenario Edit your affiliate information from Cheque payment method to Bank Transfer Started 
+2021-03-18 00:11:34,576 - logger_File -INFO - Retail page is opened
+2021-03-18 00:11:34,583 - logger_File -INFO - Page title  is verified
+2021-03-18 00:11:35,304 - logger_File -INFO - User click on My Account
+2021-03-18 00:11:35,562 - logger_File -INFO - User click on Login
+2021-03-18 00:11:39,229 - logger_File -INFO - Edit your affiliate information from Cheque payment method to Bank Transfer   undefined
+2021-03-18 00:11:39,231 - logger_File -INFO - Scenario Edit your account Information Started 
+2021-03-18 00:11:41,859 - logger_File -INFO - Retail page is opened
+2021-03-18 00:11:41,865 - logger_File -INFO - Page title  is verified
+2021-03-18 00:11:42,597 - logger_File -INFO - User click on My Account
+2021-03-18 00:11:42,957 - logger_File -INFO - User click on Login
+2021-03-18 00:11:46,620 - logger_File -INFO - Edit your account Information   undefined
+2021-03-20 01:17:19,409 - logger_File -INFO - Scenario Register as an Affiliate userwith Cheque Payment Method Started 
+2021-03-20 01:17:24,150 - logger_File -INFO - Retail page is opened
+2021-03-20 01:17:24,159 - logger_File -INFO - Page title  is verified
+2021-03-20 01:17:24,972 - logger_File -INFO - User click on My Account
+2021-03-20 01:17:25,227 - logger_File -INFO - User click on Login
+2021-03-20 01:17:28,901 - logger_File -INFO - Register as an Affiliate userwith Cheque Payment Method   undefined
+2021-03-20 01:17:28,903 - logger_File -INFO - Scenario  Started 
+2021-03-20 01:17:31,764 - logger_File -INFO - Retail page is opened
+2021-03-20 01:17:31,770 - logger_File -INFO - Page title  is verified
+2021-03-20 01:17:32,636 - logger_File -INFO - User click on My Account
+2021-03-20 01:17:33,055 - logger_File -INFO - User click on Login
+2021-03-20 01:17:36,704 - logger_File -INFO -    undefined
+2021-03-20 01:17:36,706 - logger_File -INFO - Scenario Edit your account Information Started 
+2021-03-20 01:17:39,180 - logger_File -INFO - Retail page is opened
+2021-03-20 01:17:39,186 - logger_File -INFO - Page title  is verified
+2021-03-20 01:17:39,883 - logger_File -INFO - User click on My Account
+2021-03-20 01:17:40,143 - logger_File -INFO - User click on Login
+2021-03-20 01:17:43,797 - logger_File -INFO - Edit your account Information   undefined
+2021-03-20 19:36:24,159 - logger_File -INFO - Scenario Register as an Affiliate userwith Cheque Payment Method Started 
+2021-03-20 19:36:28,655 - logger_File -INFO - Retail page is opened
+2021-03-20 19:36:28,663 - logger_File -INFO - Page title  is verified
+2021-03-20 19:36:29,773 - logger_File -INFO - User click on Login
+2021-03-20 19:36:33,393 - logger_File -INFO - User enter email address
+2021-03-20 19:36:33,456 - logger_File -INFO - User enter password
+2021-03-20 19:36:34,420 - logger_File -INFO - User click on Login button
+2021-03-20 19:36:40,016 - logger_File -INFO - User clicked on Continue button
+2021-03-20 19:36:40,620 - logger_File -INFO - Register as an Affiliate userwith Cheque Payment Method   passed
+2021-03-20 19:36:40,622 - logger_File -INFO - Scenario  Started 
+2021-03-20 19:36:43,162 - logger_File -INFO - Retail page is opened
+2021-03-20 19:36:43,168 - logger_File -INFO - Page title  is verified
+2021-03-20 19:36:44,112 - logger_File -INFO - User click on Login
+2021-03-20 19:36:47,678 - logger_File -INFO - User enter email address
+2021-03-20 19:36:47,737 - logger_File -INFO - User enter password
+2021-03-20 19:36:48,650 - logger_File -INFO - User click on Login button
+2021-03-20 19:36:53,692 - logger_File -INFO -    passed
+2021-03-20 19:36:53,694 - logger_File -INFO - Scenario Edit your account Information Started 
+2021-03-20 19:36:56,274 - logger_File -INFO - Retail page is opened
+2021-03-20 19:36:56,280 - logger_File -INFO - Page title  is verified
+2021-03-20 19:36:57,216 - logger_File -INFO - User click on Login
+2021-03-20 19:37:00,794 - logger_File -INFO - User enter email address
+2021-03-20 19:37:00,850 - logger_File -INFO - User enter password
+2021-03-20 19:37:01,749 - logger_File -INFO - User click on Login button
+2021-03-20 19:37:07,305 - logger_File -INFO - Edit your account Information   passed

@@ -11,7 +11,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2409518601,
+              "duration": 2690225067,
               "status": "passed"
             },
             "line": 5,
@@ -20,86 +20,76 @@
               "location": "LoginTestStepDefinition.user_is_on_Retail_website()"
             },
             "keyword": "Given "
-          }
-        ]
-      },
-      {
-        "before": [
+          },
           {
             "result": {
-              "duration": 2024938943,
+              "duration": 87754230,
               "status": "passed"
             },
+            "line": 6,
+            "name": "User click on MyAccount",
             "match": {
-              "location": "Initializer.beforeHooks(Scenario)"
-            }
-          }
-        ],
-        "line": 7,
-        "name": "User verify all items are present in Desktops tab",
-        "description": "",
-        "id": "check-desktop-functionality-on-retail-website;user-verify-all-items-are-present-in-desktops-tab",
-        "after": [
+              "location": "RetailPageLoginTestStepDefinition.user_click_on_MyAccount()"
+            },
+            "keyword": "And "
+          },
           {
             "result": {
-              "duration": 163402682,
+              "duration": 3706990377,
               "status": "passed"
             },
+            "line": 7,
+            "name": "User click on Login",
             "match": {
-              "location": "Initializer.afterHooks(Scenario)"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
+              "location": "LoginTestStepDefinition.user_click_on_Login()"
+            },
+            "keyword": "When "
+          },
           {
             "result": {
-              "status": "undefined"
+              "duration": 703012796,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User enter username \u0027alema@gmail.com\u0027 and password \u0027Pass@123\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "alema@gmail.com",
+                  "offset": 21
+                },
+                {
+                  "val": "Pass@123",
+                  "offset": 52
+                }
+              ],
+              "location": "LoginTestStepDefinition.user_enter_username_sdet_tekschool_us_and_password_sdet(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 490646249,
+              "status": "passed"
             },
             "line": 9,
-            "name": "User click on Desktops tab",
-            "match": {},
-            "keyword": "When "
+            "name": "User click on Login button",
+            "match": {
+              "location": "LoginTestStepDefinition.user_click_on_Login_button()"
+            },
+            "keyword": "And "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 3430101024,
+              "status": "passed"
             },
             "line": 10,
-            "name": "User click on Show all desktops",
-            "match": {},
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "status": "undefined"
-            },
-            "line": 11,
-            "name": "User should see all items are present in Desktop page",
-            "match": {},
-            "keyword": "Then "
-          }
-        ]
-      },
-      {
-        "line": 4,
-        "name": "",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 2164754553,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "User is on Retail website",
+            "name": "User should be logged in to MyAccount dashboard",
             "match": {
-              "location": "LoginTestStepDefinition.user_is_on_Retail_website()"
+              "location": "LoginTestStepDefinition.user_should_be_logged_in_to_MyAccount_dashboard()"
             },
-            "keyword": "Given "
+            "keyword": "Then "
           }
         ]
       },
@@ -107,7 +97,7 @@
         "before": [
           {
             "result": {
-              "duration": 1103856716,
+              "duration": 2627548116,
               "status": "passed"
             },
             "match": {
@@ -115,14 +105,14 @@
             }
           }
         ],
-        "line": 13,
-        "name": "User add HP LP 3065 from Desktops tab to the cart",
+        "line": 12,
+        "name": "Register as an Affiliate userwith Cheque Payment Method",
         "description": "",
-        "id": "check-desktop-functionality-on-retail-website;user-add-hp-lp-3065-from-desktops-tab-to-the-cart",
+        "id": "retail-page-login-testing-features;register-as-an-affiliate-userwith-cheque-payment-method",
         "after": [
           {
             "result": {
-              "duration": 153675227,
+              "duration": 156365514,
               "status": "passed"
             },
             "match": {
@@ -135,320 +125,483 @@
         "steps": [
           {
             "result": {
-              "status": "undefined"
+              "duration": 281785550,
+              "status": "passed"
             },
-            "line": 15,
-            "name": "User click on Desktops tab",
-            "match": {},
+            "line": 13,
+            "name": "User click on‘Register for an Affiliate Account’link",
+            "match": {
+              "location": "RetailPageLoginTestStepDefinition.user_click_on_Register_for_an_Affiliate_Account_link()"
+            },
             "keyword": "When "
           },
           {
             "result": {
-              "status": "undefined"
-            },
-            "line": 16,
-            "name": "User click on Show all desktops",
-            "match": {},
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "status": "undefined"
-            },
-            "line": 17,
-            "name": "User click ADD TO CARToption on ‘HP LP3065’item",
-            "match": {},
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "status": "undefined"
-            },
-            "line": 18,
-            "name": "User select quantity 1",
-            "match": {},
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "status": "undefined"
-            },
-            "line": 19,
-            "name": "User click add to Cart button",
-            "match": {},
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "status": "undefined"
-            },
-            "line": 20,
-            "name": "User should see a message ‘Success: you have added HP LP 3065 to your Shopping cart!’",
-            "match": {},
-            "keyword": "Then "
-          }
-        ]
-      },
-      {
-        "line": 4,
-        "name": "",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 2010721860,
+              "duration": 974856736,
               "status": "passed"
             },
-            "line": 5,
-            "name": "User is on Retail website",
+            "line": 14,
+            "name": "User fill affiliate form with below information",
             "match": {
-              "location": "LoginTestStepDefinition.user_is_on_Retail_website()"
+              "location": "RetailPageLoginTestStepDefinition.user_fill_affiliate_form_with_below_information(DataTable)"
             },
-            "keyword": "Given "
-          }
-        ]
-      },
-      {
-        "before": [
-          {
-            "result": {
-              "duration": 1189971989,
-              "status": "passed"
-            },
-            "match": {
-              "location": "Initializer.beforeHooks(Scenario)"
-            }
-          }
-        ],
-        "line": 22,
-        "name": "User add Canon EOS 5Dfrom Desktops tab to the cart",
-        "description": "",
-        "id": "check-desktop-functionality-on-retail-website;user-add-canon-eos-5dfrom-desktops-tab-to-the-cart",
-        "after": [
-          {
-            "result": {
-              "duration": 153191156,
-              "status": "passed"
-            },
-            "match": {
-              "location": "Initializer.afterHooks(Scenario)"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "status": "undefined"
-            },
-            "line": 24,
-            "name": "User click on Desktops tab",
-            "match": {},
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "status": "undefined"
-            },
-            "line": 25,
-            "name": "User click on Show all desktops",
-            "match": {},
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "status": "undefined"
-            },
-            "line": 26,
-            "name": "User click ADD TO CARToption on ‘Canon EOS 5D’item",
-            "match": {},
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "status": "undefined"
-            },
-            "line": 27,
-            "name": "User select color from dropdown ‘Red’",
-            "match": {},
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "status": "undefined"
-            },
-            "line": 28,
-            "name": "User select quantity 1",
-            "match": {},
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "status": "undefined"
-            },
-            "line": 29,
-            "name": "User click add to Cart button",
-            "match": {},
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "status": "undefined"
-            },
-            "line": 30,
-            "name": "User should see a message ‘Success: You have added Canon EOS 5D to your shopping cart!’",
-            "match": {},
-            "keyword": "Then "
-          }
-        ]
-      },
-      {
-        "line": 4,
-        "name": "",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 2119335535,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "User is on Retail website",
-            "match": {
-              "location": "LoginTestStepDefinition.user_is_on_Retail_website()"
-            },
-            "keyword": "Given "
-          }
-        ]
-      },
-      {
-        "before": [
-          {
-            "result": {
-              "duration": 1206221760,
-              "status": "passed"
-            },
-            "match": {
-              "location": "Initializer.beforeHooks(Scenario)"
-            }
-          }
-        ],
-        "line": 32,
-        "name": "User add a review to Canon EOS 5D item inDesktops tab",
-        "description": "",
-        "id": "check-desktop-functionality-on-retail-website;user-add-a-review-to-canon-eos-5d-item-indesktops-tab",
-        "after": [
-          {
-            "result": {
-              "duration": 175471303,
-              "status": "passed"
-            },
-            "match": {
-              "location": "Initializer.afterHooks(Scenario)"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "status": "undefined"
-            },
-            "line": 34,
-            "name": "User click on Desktops tab",
-            "match": {},
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "status": "undefined"
-            },
-            "line": 35,
-            "name": "User click on Show all desktops",
-            "match": {},
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "status": "undefined"
-            },
-            "line": 36,
-            "name": "User click on Canon EOS 5D item",
-            "match": {},
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "status": "undefined"
-            },
-            "line": 37,
-            "name": "User click on write a review link",
-            "match": {},
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "status": "undefined"
-            },
-            "line": 38,
-            "name": "user fill the review information with below information",
-            "match": {},
             "rows": [
               {
                 "cells": [
-                  "yourname",
-                  "yourReview",
-                  "Rating"
+                  "company",
+                  "website",
+                  "taxID",
+                  "paymentMethod"
                 ],
-                "line": 39
-              },
-              {
-                "cells": [
-                  "name",
-                  "review",
-                  "Bad or good"
-                ],
-                "line": 40
+                "line": 15
               }
             ],
             "keyword": "And "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 418596352,
+              "status": "passed"
             },
-            "line": 41,
-            "name": "User click on Continue Button",
-            "match": {},
+            "line": 16,
+            "name": "User check on About us check box",
+            "match": {
+              "location": "RetailPageLoginTestStepDefinition.user_check_on_About_us_check_box()"
+            },
             "keyword": "And "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 483820411,
+              "status": "passed"
             },
-            "line": 42,
-            "name": "User should see a message with ‘Thank you for your review. It has been submitted to the webmaster for approval.”",
-            "match": {},
+            "line": 17,
+            "name": "User click on Continue button",
+            "match": {
+              "location": "RetailPageTestStepDefinitions.user_click_on_Continue_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 445670046,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User should see a success message",
+            "match": {
+              "location": "RetailPageLoginTestStepDefinition.user_should_see_a_success_message()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2045053883,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on Retail website",
+            "match": {
+              "location": "LoginTestStepDefinition.user_is_on_Retail_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 41862943,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User click on MyAccount",
+            "match": {
+              "location": "RetailPageLoginTestStepDefinition.user_click_on_MyAccount()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3669710633,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User click on Login",
+            "match": {
+              "location": "LoginTestStepDefinition.user_click_on_Login()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 656829242,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User enter username \u0027alema@gmail.com\u0027 and password \u0027Pass@123\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "alema@gmail.com",
+                  "offset": 21
+                },
+                {
+                  "val": "Pass@123",
+                  "offset": 52
+                }
+              ],
+              "location": "LoginTestStepDefinition.user_enter_username_sdet_tekschool_us_and_password_sdet(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 458834083,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User click on Login button",
+            "match": {
+              "location": "LoginTestStepDefinition.user_click_on_Login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3430170003,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User should be logged in to MyAccount dashboard",
+            "match": {
+              "location": "LoginTestStepDefinition.user_should_be_logged_in_to_MyAccount_dashboard()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1151836694,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Initializer.beforeHooks(Scenario)"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "",
+        "description": "Edit your affiliate information from Cheque payment method to Bank Transfer",
+        "id": "retail-page-login-testing-features;",
+        "after": [
+          {
+            "result": {
+              "duration": 151199602,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Initializer.afterHooks(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 228504272,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User click on‘Edit your affiliate informationlink",
+            "match": {
+              "location": "RetailPageLoginTestStepDefinition.user_click_on_Edit_your_affiliate_informationlink()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 49046905,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "user click on Bank Transfer radio button",
+            "match": {
+              "location": "RetailPageLoginTestStepDefinition.user_click_on_Bank_Transfer_radio_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 276876147,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User fill Bank information with below information",
+            "match": {
+              "location": "RetailPageLoginTestStepDefinition.user_fill_Bank_information_with_below_information(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "bankName",
+                  "abaNumber",
+                  "swiftCode",
+                  "accountName",
+                  "accountNumber"
+                ],
+                "line": 25
+              },
+              {
+                "cells": [
+                  "US",
+                  "1234",
+                  "12345",
+                  "aaa",
+                  "123456789123456"
+                ],
+                "line": 26
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 445295569,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "User click on Continue AffiliateButton",
+            "match": {
+              "location": "RetailPageLoginTestStepDefinition.user_click_on_continue_affiliatebutton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 450813804,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "User should see a success message",
+            "match": {
+              "location": "RetailPageLoginTestStepDefinition.user_should_see_a_success_message()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2054953786,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on Retail website",
+            "match": {
+              "location": "LoginTestStepDefinition.user_is_on_Retail_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 42645034,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User click on MyAccount",
+            "match": {
+              "location": "RetailPageLoginTestStepDefinition.user_click_on_MyAccount()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3696180942,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User click on Login",
+            "match": {
+              "location": "LoginTestStepDefinition.user_click_on_Login()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 630763763,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User enter username \u0027alema@gmail.com\u0027 and password \u0027Pass@123\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "alema@gmail.com",
+                  "offset": 21
+                },
+                {
+                  "val": "Pass@123",
+                  "offset": 52
+                }
+              ],
+              "location": "LoginTestStepDefinition.user_enter_username_sdet_tekschool_us_and_password_sdet(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 465583634,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User click on Login button",
+            "match": {
+              "location": "LoginTestStepDefinition.user_click_on_Login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3437155994,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User should be logged in to MyAccount dashboard",
+            "match": {
+              "location": "LoginTestStepDefinition.user_should_be_logged_in_to_MyAccount_dashboard()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1160972620,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Initializer.beforeHooks(Scenario)"
+            }
+          }
+        ],
+        "line": 30,
+        "name": "Edit your account Information",
+        "description": "",
+        "id": "retail-page-login-testing-features;edit-your-account-information",
+        "after": [
+          {
+            "result": {
+              "duration": 153026286,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Initializer.afterHooks(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 620928564,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "User click on‘Edit your account information’ link",
+            "match": {
+              "location": "RetailPageLoginTestStepDefinition.user_click_on_Edit_your_account_information_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 398487595,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "User modify below information",
+            "match": {
+              "location": "RetailPageLoginTestStepDefinition.user_modify_below_information(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "firstname",
+                  "lastName",
+                  "email",
+                  "telephone"
+                ],
+                "line": 33
+              },
+              {
+                "cells": [
+                  "Alema",
+                  "Saadat",
+                  "alema@gmail.com",
+                  "9166776547"
+                ],
+                "line": 34
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 492752239,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "User click on continue button",
+            "match": {
+              "location": "RetailPageLoginTestStepDefinition.user_click_on_continue_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 449535537,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "User should seea message ‘Success: Your account has been successfully updated.’",
+            "match": {
+              "location": "RetailPageLoginTestStepDefinition.user_should_seea_message_Success_Your_account_has_been_successfully_updated()"
+            },
             "keyword": "Then "
           }
         ]
       }
     ],
-    "name": "check desktop functionality on Retail Website",
+    "name": "Retail Page Login testing features",
     "description": "",
-    "id": "check-desktop-functionality-on-retail-website",
+    "id": "retail-page-login-testing-features",
     "keyword": "Feature",
-    "uri": "Features/Desktops.feature",
+    "uri": "Features/RetailPageSecond.feature",
     "tags": [
       {
         "line": 1,
-        "name": "@desktopTest"
+        "name": "@RetailPageLoginTest"
       }
     ]
   }
